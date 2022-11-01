@@ -10,14 +10,14 @@
 </head>
 <body>
 <div class="header">
-    <a href="#default" class="logo">Unknown</a>
+    <a href="#default" class="logo">SomeProject</a>
     <div class="header-right">
-        <a href="#home">Home</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="#home"><i class='bx bxs-home'></i> Home</a>
+        <a href="#products"><i class='bx bxs-purchase-tag'></i> Products</a>
+        <a href="#about"><i class='bx bxs-user'></i> About</a>
     </div>
 </div>
-<section class="sectiontwo">
+<section id="home" class="sectiontwo">
 <i id="left-arrow" class='bx bxs-left-arrow' ></i>
 
 <div id="card">
@@ -32,10 +32,7 @@
 
 <i id="arrow" class='bx bxs-right-arrow' ></i>
 </section>
-<p class="cut"></p>
-<section class="sectionone">
-
-    <div class="areaone">
+<section id="products" class="sectionone">
     
     <div class="plans-button">
     <button class="button" onclick="monthly()" id="monthly">Monthly</button>
@@ -59,8 +56,11 @@
     </div>
     
     </div>
-    </div>
     </section>
+    <footer class="footer">
+        <p>© 2022 SomeProject</p>
+        <p class="desc">This project is for you guys make it better!</p>
+    </footer>
 <button onclick="topbutton()" id="top-button"><i class='bx bx-chevron-up'></i></button>
 <script src="main.js"></script>
 </body>
